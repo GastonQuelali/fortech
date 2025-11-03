@@ -1,0 +1,47 @@
+# Archivos de base de datos
+*.mdf
+*.ldf
+*.ndf
+*.bak
+*.trn
+*.bacpac
+
+# Archivos temporales de SQL Server
+*.tmp
+*.temp
+
+# Archivos de configuración sensibles
+*.config
+*.settings
+*.publish.xml
+
+# Archivos de SSMS
+*.ssmssln
+*.ssms*
+
+# Logs y archivos de diagnóstico
+*.log
+*.trc
+*.el
+
+# Backup y archivos de recuperación
+Backup/
+Restore/
+
+# Archivos de usuario de VS/SSDT
+*.user
+*.userosscache
+
+# Carpeta de paquetes SSIS
+*.dtspackage
+
+# IntelliJ IDEA (si usas otros IDEs)
+.idea/
+
+# Archivos de datos de prueba
+TestData/
+SampleData/
+
+# Configuraciones locales
+appsettings.local.json
+web.config.local
