@@ -1,9 +1,9 @@
 ﻿DECLARE @Doc AS NVARCHAR(200) = 'Query obtener listado de art�culos en transacciones de ventas'
 
 DECLARE @LocationID AS UNIQUEIDENTIFIER = '0020cdc6-16bd-49d2-d16c-08d5e69262b3'
-DECLARE @term AS NVARCHAR(200) = '25035';
+DECLARE @term AS NVARCHAR(200) = '12296';
 
-DECLARE @ToDate AS DATETIME = '2025-10-27'
+DECLARE @ToDate AS DATETIME = '2025-11-05'
 
 ;WITH s AS (
 SELECT 

@@ -16,6 +16,7 @@ WHERE
         (t.Status = 3 AND ti.CompletedQuantity = 0)  -- Status 3 pero Completed = 0
         OR (t.Status IN (0,2) AND ti.CompletedQuantity > 0)  -- Status 0/2 pero Completed > 0
     )
+    AND t.AuthorizationStatus = 1
 GROUP BY i.ID, i.SKU, i.Name
 HAVING COUNT(*) > 0
 ORDER BY InconsistentTransactions DESC
